@@ -22,9 +22,9 @@
 
 In response to the high cost of new books, the uncertainty of exchanging with strangers, and the pile of unused titles at home, we propose a web platform for trading physical books that connects readers (18+) within the same city. The platform helps people discover and obtain titles without buying them, broadens access to a wider variety of books, and strengthens the reading community through safe, reliable interactions.
 
-Our value proposition blends convenience, safety, and community. Each user creates a Personal Catalog by scanning a book’s ISBN to auto-fill title, author, and cover; manages a Wishlist that organizes and motivates reading; and gets alerts via a Match system when someone offers a wished-for book—or is interested in one they offer. To complete the journey, the site suggests secure exchange points (libraries, cafés, cultural centers) and sends automatic notifications so opportunities aren’t missed.
+Our value proposition blends convenience, safety, and community. Each user creates a Personal Catalog by scanning a book’s ISBN to auto fill title, author, and cover; manages a Wishlist that organizes and motivates reading; and gets alerts via a Match system when someone offers a wished for book or is interested in one they offer. To complete the journey, the site suggests secure exchange points (libraries, cafés, cultural centers) and sends automatic notifications so opportunities aren’t missed.
 
-The UX project focuses on delivering a simple, fast, and trustworthy experience from search to meetup. We will measure success by the rate of completed matches, time to exchange, and user-reported satisfaction. With this solution, we encourage reading habits, save money, and build community around books.
+The UX project focuses on delivering a simple, fast, and trustworthy experience from search to meetup. We will measure success by the rate of completed matches, time to exchange, and user reported satisfaction. With this solution, we encourage reading habits, save money, and build community around books.
 
 ---
 
