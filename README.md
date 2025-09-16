@@ -74,7 +74,7 @@ Benchmarking analysis provides us with an objective perspective and helps us und
 
 In short, benchmarking analysis allows us to recognize the strengths and weaknesses of competing applications, optimally integrating the positive aspects and avoiding the identified mistakes. This helps us to create an application that aligns with market expectations and delivers an exceptional user experience.
 
-![Benchmarking](./files/Benchmarking.png)
+![Benchmarking](assets/ux-personas/ux-persona-1.png)
 
 ---
 
