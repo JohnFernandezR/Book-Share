@@ -3,18 +3,14 @@
 ## Index
 
 - [1. Introduction](#1-introduction)
-- [2. Team](#2-Team)
+- [2. Team](#2-team)
 - [3. Strategy](#3-strategy)
 - [4. Solutions Scope](#4-solutions-scope)
-- [5. Benchmark](#5-Benchmark)
+- [5. Benchmark](#5-benchmark)
 - [6. Customer Journey Map](#6-customer-journey-map)
-- [7. Navigation](#7-Navigation)
-  - [7.1. Initial Aporach](#71-first-aproach)
-  - [7.2. Improved Navigation](#72-improved-navigation)
+- [7. Navigation](#7-navigation)
 - [8. Wireframes](#8-wireframes)
 - [9. Mockups](#9-mockups)
-  - [9.1. Initial Aproach](#91-initial-aproach)
-  - [9.2. Improved Mockups](#92-improved-mockups)
 
 ---
 
@@ -32,13 +28,14 @@ The UX project focuses on delivering a simple, fast, and trustworthy experience 
 
 Carlos Cienfuegos - Designer
 
-Daniel Opazo - Project Manager
+Daniel Opazo - Project Manager & Presenter
 
 Felipe Delgado - Designer
 
 John Fernandez - Designer
 
-Sebastian Romero - Researcher
+Sebastian Romero - Analyst
+
 
 ---
 
@@ -46,7 +43,7 @@ Sebastian Romero - Researcher
 
 The first step under the Elements of User Experience is the Strategy plane, which focuses on incorporating not only what the people running the application want to get out of it but what the users want to get out of the application.
 
-From this aproach, a Value Proposition Canvas is used to determined what the people wants to earn from our solution and how are we gonna respond to those needs.
+From this approach, a Value Proposition Canvas is used to determine what the people want to earn from our solution and how we are going to respond to those needs.
 
 ![Value Proposition Canvas](assets/value-proposition-canvas/canva.jpeg)
 
@@ -54,13 +51,15 @@ From this aproach, a Value Proposition Canvas is used to determined what the peo
 
 ## 4. Solutions Scope
 
-The application is designed for users interested in caring for the health of their plants. It is suitable for both beginners and experienced hobbyists. It provides step-by-step tips for plant care, including basic and advanced information. It allows you to keep a detailed record of your plants and track their progress. It also offers advanced features, such as pruning techniques and pest control. In short, it is a versatile application that helps users to effectively care for their plants and improve their gardening skills.
+The READ&SHARE application is designed to solve the friction of finding new physical books without the commitment of purchasing them. Our solution focuses on providing a local, non-monetary, and secure exchange experience through its core features: the Reciprocal Match System, a Personal Catalog via ISBN Scan, a Wishlist, and the suggestion of Secure Exchange Points.
 
-![Person_UX_1](assets/ux-personas/ux1.png)
+Our primary scope is the peer-to-peer book swap within a hyper-local area, eliminating the high costs and logistical friction associated with shipping and monetary transactions. The design is heavily informed by user pain points related to security and book condition.
 
-![Person_UX_2](assets/ux-personas/ux2.png)
+![Person_UX_1](assets/ux-personas/ux1.jpeg)
 
-![Person_UX_3](assets/ux-personas/ux3.png)
+![Person_UX_2](assets/ux-personas/ux2.jpeg)
+
+![Person_UX_3](assets/ux-personas/ux3.jpeg)
 
 ---
 
@@ -82,135 +81,75 @@ In short, benchmarking analysis allows us to recognize the strengths and weaknes
 
 The Customer Journey Map is a valuable tool to understand the user experience in their interaction with our product or service. Through the detailed mapping of each stage, from the first contact to the subsequent interaction, we can identify emotions, needs and critical moments. This analysis highlights challenges and opportunities to improve the experience and design exceptional solutions. By immersing ourselves in the user's world, we create memorable experiences and strengthen the relationship with them.
 
-![Customer_Journey_Map](assets/value-proposition-canvas/canva.jpeg)
+![Customer_Journey_Map](assets/customer-journey-map/customer.jpeg)
 
 ---
 
 ## 7. Navigation
 
-### 7.1. First Aproach
-
-![Navigation](./files/Navigation.png)
-
-### 7.2. Improved Navigation
-
-![NavigationV2](./files/NavigationV2.png)
+![Navigation](assets/flowchart/flowchart.jpeg)
 
 ---
 
 ## 8. Wireframes
 
-Wireframes are essential in design and development for several reasons. They provide a visual representation that helps plan and visualize the structure and layout of a product or website before investing significant resources. They serve as an efficient communication tool, facilitating discussions and aligning expectations among team members and stakeholders. Also support an iterative design process, allowing for quick experimentation and problem-solving while being cost-effective compared to high-fidelity prototypes. Lastly, wireframes promote user-centered design by prioritizing user needs and goals, resulting in more intuitive and efficient interfaces.
+Wireframes are essential in design and development for several reasons. They provide a visual representation that helps plan and visualize the structure and layout of a product or website before investing significant resources. They serve as an efficient communication tool, facilitating discussions and aligning expectations among team members and stakeholders. They also support an iterative design process, allowing for quick experimentation and problem-solving while being cost-effective compared to high-fidelity prototypes. Lastly, wireframes promote user-centered design by prioritizing user needs and goals, resulting in more intuitive and efficient interfaces.
 
-Login
+**Login**
 
-![](assets/wireframes/login.jpg)
+![Login](assets/wireframes/login.jpg)
 
+**Register**
 
-Register
+![Register](assets/wireframes/register.jpg)
 
-![](assets/wireframes/register.jpg)
+**Home**
 
+![Home](assets/wireframes/home.jpg)
 
-Home
+**See a book**
 
-![](assets/wireframes/home.jpg)
+![See a book](assets/wireframes/book.jpg)
 
+**Start a chat**
 
-See a book
+![Start a chat](assets/wireframes/chat.jpg)
 
-![](assets/wireframes/book.jpg)
+**Search a safe zone**
 
+![Search a safe zone](assets/wireframes/gps.jpg)
 
-Start a chat
+![Safe Zone](assets/wireframes/safeZone.jpg)
 
-![](assets/wireframes/chat.jpg)
+**Settings**
 
+![Settings](assets/wireframes/settings.jpg)
 
-Search a safe zone
+**Edit profile**
 
-![](assets/wireframes/gps.jpg)
+![Edit profile](assets/wireframes/edit.jpg)
 
+**Error**
 
-![](assets/wireframes/safeZone.jpg)
-
-
-Settings
-
-![](assets/wireframes/settings.jpg)
-
-
-Edit profile
-
-![](assets/wireframes/edit.jpg)
-
-
-Error
-
-![](assets/wireframes/error.jpg)
+![Error](assets/wireframes/error.jpg)
 
 ---
 
 ## 9. Mockups
 
-This section shows the mockups developed as a solution, for a better visualization visit the project in figma together with its functionalities [here](https://www.figma.com/file/qoBtWThrPUKcvd6hiCrm5K/Plantitas?type=design&mode=design&t=8niDRsvgzT9YFEe0-0).
+This section presents the High-Definition Mockups after a critical feedback process focused on aligning the design with the core value proposition: the Reciprocal Match System.
 
-### 9.1. Initial Aproach
+### 9.1. Initial Approach (Low-Fidelity Issues)
 
-Initially, we tried to cover all of our users needs, offering them with all the features needed to satisfy their petitions studied previously. Here are the essentials views that cover these requirements:
+Initially, the wireframes contained incongruities, such as a **"Price" field** and a **generic "Search" bar** on the home screen. These were deficient because they contradicted the core non-monetary, reciprocal exchange model (Entregable 3). Furthermore, key functionality, such as the **ISBN Scan flow** and **Partner Rating visibility**, was missing (Entregables 6, 8, 10).
 
-Home.
+### 9.2. Improved Mockups (Final High-Fidelity Design)
 
-![Home](./files/mockups/Home.png)
+The final design reflects the resolution of all strategic contradictions, validating the project's key differentiators:
 
-Add Plant.
-
-![Add Plant](./files/mockups/Add%20Plant.png)
-
-Recent.
-
-![Recent](./files/mockups/Recent.png)
-
-Information.
-
-![Information](./files/mockups/Information.png)
-
-Photo Scan.
-
-![Photo Scan](./files/mockups/Photo%20Scan.png)
-
-Identify Plant.
-
-![Identify Plant](./files/mockups/Identify%20Plant.png)
-
-Profile.
-
-![Profile](./files/mockups/Profile.png)
-
-### 9.2. Improved Mockups
-
-After our first aproach, the project was involved in a feedback process. By using Usability Testing like Heuristic metrics shared by our co-workers and improving the first design focused on accessibility, we developed some new features like 'Dark Mode', sensors features and more.
-
-Here are some examples:
-
-Home - Dark Mode
-
-![Home Dark](./files/mockupsV2/dark_mode/%5BOSCURO%5D%20Home.png)
-
-Search - Dark Mode
-
-![Search Dark](./files/mockupsV2/dark_mode/%5BOSCURO%5D%20Buscador.png)
-
-Plant Information - Dark Mode
-
-![Plant Info Dark](./files/mockupsV2/dark_mode/%5BOSCURO%5D%20Info%20Planta.png)
-
-Plant Stats using Sensors
-
-![Sensors](./files/mockupsV2/light_mode/Info%20Planta%20Sensor.png)
-
-Better Floating Action Buttons
-
-![Floating Button Example](./files/mockupsV2/light_mode/Planta%20Identificada.png)
-
----
+| Evolution (Change from Initial to Final Design) | Justification (UCD Alignment) |
+| :--- | :--- |
+| **Home Screen:** Title changed to **"Matches Recíprocos"** and content prioritized to Reciprocal Swap Cards. | **Flowchart (8):** Eliminates the generic "Search" approach. **Scope (3):** Emphasizes the Reciprocal Match System (core feature). |
+| **Book Detail/Swap View:** **Price field was removed.** Added fields for **Book Condition** and **Partner Rating**. | **Scope (3):** Affirms the **non-monetary model**. **UX Persona (Diego Pérez - 6):** Addresses the pain point of "Doubts about the actual condition of the book." |
+| **Location Screen:** Renamed to **"Puntos de Intercambio Seguros"** and added security descriptors. | **CJM (9):** Directly addresses **Valentina's (Persona 1)** critical pain point: "Fear of physical insecurity" during the encounter. |
+| **Profile View:** Updated to show **"Swaps Completados"** instead of "Lectores," and includes a dedicated link for **"Configurar Intereses/Géneros."** | **Scope (3):** Affirms the "Instant Swap Model." **Flowchart (8):** Validates the "Set Up Interests" node, which feeds the Match Algorithm. |
