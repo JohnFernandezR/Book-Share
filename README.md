@@ -74,7 +74,7 @@ Benchmarking analysis provides us with an objective perspective and helps us und
 
 In short, benchmarking analysis allows us to recognize the strengths and weaknesses of competing applications, optimally integrating the positive aspects and avoiding the identified mistakes. This helps us to create an application that aligns with market expectations and delivers an exceptional user experience.
 
-![Benchmarking](assets/benchmark/benchmarking.png)
+![Benchmarking](assets/benchmark/benchmarking.jpeg)
 
 ---
 
@@ -82,7 +82,7 @@ In short, benchmarking analysis allows us to recognize the strengths and weaknes
 
 The Customer Journey Map is a valuable tool to understand the user experience in their interaction with our product or service. Through the detailed mapping of each stage, from the first contact to the subsequent interaction, we can identify emotions, needs and critical moments. This analysis highlights challenges and opportunities to improve the experience and design exceptional solutions. By immersing ourselves in the user's world, we create memorable experiences and strengthen the relationship with them.
 
-![Customer_Journey_Map](./files/Customer_Journey_Map.png)
+![Customer_Journey_Map](assets/value-proposition-canvas/canva.jpeg)
 
 ---
 
@@ -102,21 +102,34 @@ The Customer Journey Map is a valuable tool to understand the user experience in
 
 Wireframes are essential in design and development for several reasons. They provide a visual representation that helps plan and visualize the structure and layout of a product or website before investing significant resources. They serve as an efficient communication tool, facilitating discussions and aligning expectations among team members and stakeholders. Also support an iterative design process, allowing for quick experimentation and problem-solving while being cost-effective compared to high-fidelity prototypes. Lastly, wireframes promote user-centered design by prioritizing user needs and goals, resulting in more intuitive and efficient interfaces.
 
-![Home](./files/wireframes/Home.png)
+Login
+![](assets/wireframes/login.jpg)
 
-![](./files/wireframes/Identificar.png)
+Register
+![](assets/wireframes/register.jpg)
 
-![](./files/wireframes/Editar%20Perfil.png)
+Home
+![](assets/wireframes/home.jpg)
 
-![](./files/wireframes/add_plant.png)
+See a book
+![](assets/wireframes/book.jpg)
 
-![](./files/wireframes/Buscador.png)
+Start a chat
+![](assets/wireframes/chat.jpg)
 
-![](./files/wireframes/Info%20Planta.png)
+Search a safe zone
+![](assets/wireframes/gps.jpg)
 
-![](./files/wireframes/Perfil.png)
+![](assets/wireframes/safeZone.jpg)
 
-![](./files/wireframes/Recientes.png)
+Settings
+![](assets/wireframes/settings.jpg)
+
+Edit profile
+![](assets/wireframes/edit.jpg)
+
+Error
+![](assets/wireframes/error.jpg)
 
 ---
 
