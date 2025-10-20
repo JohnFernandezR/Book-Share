@@ -103,32 +103,50 @@ The Customer Journey Map is a valuable tool to understand the user experience in
 Wireframes are essential in design and development for several reasons. They provide a visual representation that helps plan and visualize the structure and layout of a product or website before investing significant resources. They serve as an efficient communication tool, facilitating discussions and aligning expectations among team members and stakeholders. Also support an iterative design process, allowing for quick experimentation and problem-solving while being cost-effective compared to high-fidelity prototypes. Lastly, wireframes promote user-centered design by prioritizing user needs and goals, resulting in more intuitive and efficient interfaces.
 
 Login
+
 ![](assets/wireframes/login.jpg)
 
+
 Register
+
 ![](assets/wireframes/register.jpg)
 
+
 Home
+
 ![](assets/wireframes/home.jpg)
 
+
 See a book
+
 ![](assets/wireframes/book.jpg)
 
+
 Start a chat
+
 ![](assets/wireframes/chat.jpg)
 
+
 Search a safe zone
+
 ![](assets/wireframes/gps.jpg)
+
 
 ![](assets/wireframes/safeZone.jpg)
 
+
 Settings
+
 ![](assets/wireframes/settings.jpg)
 
+
 Edit profile
+
 ![](assets/wireframes/edit.jpg)
 
+
 Error
+
 ![](assets/wireframes/error.jpg)
 
 ---
