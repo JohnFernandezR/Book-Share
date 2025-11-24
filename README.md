@@ -1,14 +1,12 @@
-# Proyecto READ&SHARE
+# READ&SHARE Project
 
-## Links Figma
+## Figma Links
 
-### HI-FI 
+### Final High-Fidelity Prototype
+[View Final Prototype in Figma](https://www.figma.com/design/zT90Km5SHhE8oT0zsI0kQm/read-share?node-id=0-1&p=f&t=THDSOG1wODz7QQRJ-0)
 
-https://www.figma.com/design/zT90Km5SHhE8oT0zsI0kQm/read-share?node-id=0-1&p=f&t=THDSOG1wODz7QQRJ-0
-
-### Wireframe
-
-https://www.figma.com/design/402DWWZCR1T9mrdEmgB5oO/Untitled?node-id=0-1&t=zOR5YpoLrG0us8gL-1
+### Wireframes & Process
+[View Wireframes in Figma](https://www.figma.com/design/402DWWZCR1T9mrdEmgB5oO/Untitled?node-id=0-1&t=zOR5YpoLrG0us8gL-1)
 
 ## Index
 
@@ -21,6 +19,9 @@ https://www.figma.com/design/402DWWZCR1T9mrdEmgB5oO/Untitled?node-id=0-1&t=zOR5Y
 - [7. Navigation](#7-navigation)
 - [8. Wireframes](#8-wireframes)
 - [9. Mockups](#9-mockups)
+- [10. Heuristic Evaluation Analysis](#10-heuristic-evaluation-analysis)
+- [11. Final Hi-Fi Refactor](#11-final-hi-fi-refactor)
+- [12. Accessibility](#12-accessibility)
 
 ---
 
@@ -36,16 +37,15 @@ The UX project focuses on delivering a simple, fast, and trustworthy experience 
 
 ## 2. Team
 
-Carlos Cienfuegos - Designer
+Carlos Cienfuegos - Support Designer
 
 Daniel Opazo - Project Manager & Presenter
 
 Felipe Delgado - Designer
 
-John Fernandez - Designer
+John Fernandez - Support Designer
 
 Sebastian Romero - Analyst
-
 
 ---
 
@@ -79,9 +79,7 @@ In order to develop an application that meets the expectations and needs of user
 
 By studying competing applications, we can learn from their mistakes and avoid repeating them in our application. In addition, we can identify successful features and functionalities that we can adopt and implement in our solution, thus providing a superior experience to our users.
 
-Benchmarking analysis provides us with an objective perspective and helps us understand market expectations and user demands. By leveraging this information, we can design and develop an application that stands out from the competition and effectively meets the needs and aspirations of our users.
-
-In short, benchmarking analysis allows us to recognize the strengths and weaknesses of competing applications, optimally integrating the positive aspects and avoiding the identified mistakes. This helps us to create an application that aligns with market expectations and delivers an exceptional user experience.
+**Key Insight:** Unlike "BookScouter" (focused on selling) or "BookMooch" (focused on shipping/points), READ&SHARE differentiates itself by **INCLUDING** a Reciprocal Match System and Secure Physical Locations, directly addressing the local safety gap.
 
 ![Benchmarking](assets/benchmark/benchmarking.jpeg)
 
@@ -106,48 +104,38 @@ The Customer Journey Map is a valuable tool to understand the user experience in
 Wireframes are essential in design and development for several reasons. They provide a visual representation that helps plan and visualize the structure and layout of a product or website before investing significant resources. They serve as an efficient communication tool, facilitating discussions and aligning expectations among team members and stakeholders. They also support an iterative design process, allowing for quick experimentation and problem-solving while being cost-effective compared to high-fidelity prototypes. Lastly, wireframes promote user-centered design by prioritizing user needs and goals, resulting in more intuitive and efficient interfaces.
 
 **Login**
-
 ![Login](assets/wireframes/login.jpg)
 
 **Register**
-
 ![Register](assets/wireframes/register.jpg)
 
 **Home**
-
 ![Home](assets/wireframes/home.jpg)
 
 **See a book**
-
 ![See a book](assets/wireframes/book.jpg)
 
 **Start a chat**
-
 ![Start a chat](assets/wireframes/chat.jpg)
 
 **Search a safe zone**
-
 ![Search a safe zone](assets/wireframes/gps.jpg)
-
 ![Safe Zone](assets/wireframes/safeZone.jpg)
 
 **Settings**
-
 ![Settings](assets/wireframes/settings.jpg)
 
 **Edit profile**
-
 ![Edit profile](assets/wireframes/edit.jpg)
 
 **Error**
-
 ![Error](assets/wireframes/error.jpg)
 
 ---
 
 ## 9. Mockups
 
-This section presents the High-Definition Mockups after a critical feedback process focused on aligning the design with the core value proposition: the Reciprocal Match System.
+This section presents the evolution from Low-Fidelity to High-Definition Mockups, focusing on aligning the design with the core value proposition: the Reciprocal Match System.
 
 ### 9.1. Initial Approach (Low-Fidelity Issues)
 
@@ -164,7 +152,9 @@ The final design reflects the resolution of all strategic contradictions, valida
 | **Location Screen:** Renamed to **"Puntos de Intercambio Seguros"** and added security descriptors. | **CJM (9):** Directly addresses **Valentina's (Persona 1)** critical pain point: "Fear of physical insecurity" during the encounter. |
 | **Profile View:** Updated to show **"Swaps Completados"** instead of "Lectores," and includes a dedicated link for **"Configurar Intereses/Géneros."** | **Scope (3):** Affirms the "Instant Swap Model." **Flowchart (8):** Validates the "Set Up Interests" node, which feeds the Match Algorithm. |
 
-## 10. Heuristic evaluation's analysis
+---
+
+## 10. Heuristic Evaluation Analysis
 
 Following the development of the High-Fidelity Mockups, a **Heuristic Evaluation** was performed by the external team **Mindful Monkey**. The objective was to identify usability issues based on recognized principles (Nielsen's Heuristics) and calculate the product's perceived usability using the **System Usability Scale (SUS)**. This analysis explicitly informs the final refactoring and consolidation of the design.
 
@@ -207,7 +197,9 @@ Based on the "Mindful Monkey" proposals, the final version of the project implem
 3.  **Prototype Logic:** Correction of the prototype's navigability to ensure all flows (like "Upload Book" or "Interests") are connected and functional.
 4.  **Term Alignment:** Renaming ambiguous labels to clearly reflect the exchange model (e.g., clarifying "Lectores" vs. "Swaps").
 
-## 11. Final HI-FI's Refactor
+---
+
+## 11. Final Hi-Fi Refactor
 
 This section presents the final iteration of the High-Fidelity design. These changes explicitly address the observations made by the **teaching team (Professor, Assistants and Students)** during the feedback sessions, as well as the issues found in the heuristic analysis.
 
@@ -218,28 +210,28 @@ This section presents the final iteration of the High-Fidelity design. These cha
 * **Screen Flow:** The navigation logic was optimized to ensure a seamless flow between screens, adding missing connections to key functions.
 * **Language Consistency:** Addressed the "Spanglish" issue identified in previous deliverables. The interface language has been unified to ensure a professional user experience.
 * **Documentation Visibility:** Final mockups are now directly embedded in this README for immediate visualization, as requested.
-* **Interactive Access:** The link to the functional prototype is now clearly available above.
+* **Interactive Access:** The link to the functional prototype is now clearly available at the top of this document.
 
 ### 11.1. Iterations
 
 The design process followed an iterative cycle, evolving from low-fidelity structures to a polished, user-centered interface.
 
-### 11.1.1 1° Iteration: Wireframe
+### 11.1.1 1st Iteration: Wireframe
 This initial stage focused exclusively on **structure and user flow**. We mapped out the skeletal framework of the application to ensure that the core features (Book Upload, Match, Chat) were logically connected, without the distraction of visual design elements.
 
 ![Wireframe Iteration](assets/iterations/wireframe.png)
 
-### 11.1.2 2° Iteration: Initial High-Fidelity (Back-up Mockup)
+### 11.1.2 2nd Iteration: Initial High-Fidelity (Back-up Mockup)
 This was our first attempt at applying visual design. This version served as the subject for the **Heuristic Evaluation** by Mindful Monkey. It helped us identify critical issues such as "Spanglish" text, inconsistent button styles, and the lack of a global navigation bar.
 
 ![Back-up Mockup Iteration](assets/iterations/backup-mockup.png)
 
-### 11.1.3 3° Iteration: Functional Prototype (Actual Mockup)
+### 11.1.3 3rd Iteration: Functional Prototype (Actual Mockup)
 In this phase, we focused on **interactivity and logic**. We connected the screens to create a navigable prototype in Figma. This stage revealed flow disconnects (e.g., dead ends in the "Interests" section) and allowed us to test the "Reciprocal Match" logic before applying the final visual polish.
 
 ![Actual Mockup Iteration](assets/iterations/actual-mockup.png)
 
-### 11.1.4 4° Iteration: Final Refactor (Refactor Mockup)
+### 11.1.4 4th Iteration: Final Refactor (Refactor Mockup)
 The final version incorporates all feedback from the teaching team and the heuristic analysis. We implemented a **Design System** to standardize colors, typography, and spacing. Critical improvements include a consistent Navbar, business-aligned terminology, and safety features for the user.
 
 ![Refactor Mockup Iteration](assets/iterations/refactor-mockup.png)
@@ -292,3 +284,18 @@ A critical heuristic issue was the lack of system status visibility. We added a 
   <img src="assets/new-hifi/5.3Finished.png" height="400">
   <img src="assets/new-hifi/10.Close-Match.png" height="400">
 </div>
+
+---
+
+## 12. Accessibility
+
+In adherence to the project rubrics and inclusive design principles (based on workshop guidelines), the final prototype incorporates key accessibility features to ensure usability for a wider range of users.
+
+### 12.1. Visual Accessibility (Color & Contrast)
+We addressed the heuristic feedback regarding inconsistent button colors by establishing a **Main Brand Color (#4A90E2 - Blue)** and an **Accent Color (#FF9A00 - Orange)** that comply with **WCAG AA standards** for contrast against the white background. This ensures that text is readable for users with visual impairments.
+
+### 12.2. Touch Targets (Fitts's Law)
+Previous iterations had buttons that were "too small" or "hard to reach" (Critical Issue #7). In the final refactor, all interactive elements, specifically the **Bottom Navigation Bar** and the **Main Action Buttons**, have been resized to meet the minimum touch target size of **44x44 pixels**.
+
+### 12.3. Cognitive Load Reduction
+We reduced clutter by simplifying the navigation into **3 core tabs** and consolidating the "Upload" feature into a prominent, easily identifiable **Floating Action Button (+)**. This helps users with cognitive disabilities to easily identify the primary action on the screen without getting lost in complex menus.
