@@ -29,23 +29,19 @@
 
 In response to the high cost of new books, the uncertainty of exchanging with strangers, and the pile of unused titles at home, we propose a web platform for trading physical books that connects readers (18+) within the same city. The platform helps people discover and obtain titles without buying them, broadens access to a wider variety of books, and strengthens the reading community through safe, reliable interactions.
 
-Our value proposition blends convenience, safety, and community. Each user creates a Personal Catalog by scanning a book’s ISBN to auto fill title, author, and cover; manages a Wishlist that organizes and motivates reading; and gets alerts via a Match system when someone offers a wished for book or is interested in one they offer. To complete the journey, the site suggests secure exchange points (libraries, cafés, cultural centers) and sends automatic notifications so opportunities aren’t missed.
+Our value proposition blends convenience, safety, and community. Each user creates a Personal Catalog by scanning a book's ISBN to auto-fill title, author, and cover; manages a Wishlist that organizes and motivates reading; and gets alerts via a Match system when someone offers a wished-for book or is interested in one they offer. To complete the journey, the site suggests secure exchange points (libraries, cafés, cultural centers) and sends automatic notifications so opportunities aren't missed.
 
-The UX project focuses on delivering a simple, fast, and trustworthy experience from search to meetup. We will measure success by the rate of completed matches, time to exchange, and user reported satisfaction. With this solution, we encourage reading habits, save money, and build community around books.
+The UX project focuses on delivering a simple, fast, and trustworthy experience from search to meetup. We will measure success by the rate of completed matches, time to exchange, and user-reported satisfaction. With this solution, we encourage reading habits, save money, and build community around books.
 
 ---
 
 ## 2. Team
 
-Carlos Cienfuegos - Support Designer
-
-Daniel Opazo - Project Manager & Presenter
-
-Felipe Delgado - Designer
-
-John Fernandez - Support Designer
-
-Sebastian Romero - Analyst
+- **Daniel Opazo** - Project Manager & Presenter
+- **Sebastian Romero** - Analyst
+- **Felipe Delgado** - Designer
+- **Carlos Cienfuegos** - Designer
+- **John Fernandez** - Designer
 
 ---
 
@@ -65,6 +61,8 @@ The READ&SHARE application is designed to solve the friction of finding new phys
 
 Our primary scope is the peer-to-peer book swap within a hyper-local area, eliminating the high costs and logistical friction associated with shipping and monetary transactions. The design is heavily informed by user pain points related to security and book condition.
 
+### UX Personas
+
 ![Person_UX_1](assets/ux-personas/ux1.jpeg)
 
 ![Person_UX_2](assets/ux-personas/ux2.jpeg)
@@ -79,7 +77,7 @@ In order to develop an application that meets the expectations and needs of user
 
 By studying competing applications, we can learn from their mistakes and avoid repeating them in our application. In addition, we can identify successful features and functionalities that we can adopt and implement in our solution, thus providing a superior experience to our users.
 
-**Key Insight:** Unlike "BookScouter" (focused on selling) or "BookMooch" (focused on shipping/points), READ&SHARE differentiates itself by **INCLUDING** a Reciprocal Match System and Secure Physical Locations, directly addressing the local safety gap.
+**Key Insight:** Unlike "BookScouter" (focused on selling) or "BookMooch" (focused on shipping/points), READ&SHARE differentiates itself by **including** a Reciprocal Match System and Secure Physical Locations, directly addressing the local safety gap.
 
 ![Benchmarking](assets/benchmark/benchmarking.jpeg)
 
@@ -87,9 +85,9 @@ By studying competing applications, we can learn from their mistakes and avoid r
 
 ## 6. Customer Journey Map
 
-The Customer Journey Map is a valuable tool to understand the user experience in their interaction with our product or service. Through the detailed mapping of each stage, from the first contact to the subsequent interaction, we can identify emotions, needs and critical moments. This analysis highlights challenges and opportunities to improve the experience and design exceptional solutions. By immersing ourselves in the user's world, we create memorable experiences and strengthen the relationship with them.
+The Customer Journey Map is a valuable tool to understand the user experience in their interaction with our product or service. Through the detailed mapping of each stage, from the first contact to the subsequent interaction, we can identify emotions, needs, and critical moments. This analysis highlights challenges and opportunities to improve the experience and design exceptional solutions. By immersing ourselves in the user's world, we create memorable experiences and strengthen the relationship with them.
 
-![Customer_Journey_Map](assets/customer-journey-map/customer.jpeg)
+![Customer_Journey_Map](assets/journey-map/customer.jpeg)
 
 ---
 
@@ -103,32 +101,32 @@ The Customer Journey Map is a valuable tool to understand the user experience in
 
 Wireframes are essential in design and development for several reasons. They provide a visual representation that helps plan and visualize the structure and layout of a product or website before investing significant resources. They serve as an efficient communication tool, facilitating discussions and aligning expectations among team members and stakeholders. They also support an iterative design process, allowing for quick experimentation and problem-solving while being cost-effective compared to high-fidelity prototypes. Lastly, wireframes promote user-centered design by prioritizing user needs and goals, resulting in more intuitive and efficient interfaces.
 
-**Login**
+### Login
 ![Login](assets/wireframes/login.jpg)
 
-**Register**
+### Register
 ![Register](assets/wireframes/register.jpg)
 
-**Home**
+### Home
 ![Home](assets/wireframes/home.jpg)
 
-**See a book**
+### See a Book
 ![See a book](assets/wireframes/book.jpg)
 
-**Start a chat**
+### Start a Chat
 ![Start a chat](assets/wireframes/chat.jpg)
 
-**Search a safe zone**
+### Search a Safe Zone
 ![Search a safe zone](assets/wireframes/gps.jpg)
 ![Safe Zone](assets/wireframes/safeZone.jpg)
 
-**Settings**
+### Settings
 ![Settings](assets/wireframes/settings.jpg)
 
-**Edit profile**
+### Edit Profile
 ![Edit profile](assets/wireframes/edit.jpg)
 
-**Error**
+### Error
 ![Error](assets/wireframes/error.jpg)
 
 ---
@@ -139,7 +137,7 @@ This section presents the evolution from Low-Fidelity to High-Definition Mockups
 
 ### 9.1. Initial Approach (Low-Fidelity Issues)
 
-Initially, the wireframes contained incongruities, such as a **"Price" field** and a **generic "Search" bar** on the home screen. These were deficient because they contradicted the core non-monetary, reciprocal exchange model (Entregable 3). Furthermore, key functionality, such as the **ISBN Scan flow** and **Partner Rating visibility**, was missing (Entregables 6, 8, 10).
+Initially, the wireframes contained incongruities, such as a **"Price" field** and a **generic "Search" bar** on the home screen. These were deficient because they contradicted the core non-monetary, reciprocal exchange model. Furthermore, key functionality, such as the **ISBN Scan flow** and **Partner Rating visibility**, was missing.
 
 ### 9.2. Improved Mockups (Final High-Fidelity Design)
 
@@ -147,10 +145,10 @@ The final design reflects the resolution of all strategic contradictions, valida
 
 | Evolution (Change from Initial to Final Design) | Justification (UCD Alignment) |
 | :--- | :--- |
-| **Home Screen:** Title changed to **"Matches Recíprocos"** and content prioritized to Reciprocal Swap Cards. | **Flowchart (8):** Eliminates the generic "Search" approach. **Scope (3):** Emphasizes the Reciprocal Match System (core feature). |
-| **Book Detail/Swap View:** **Price field was removed.** Added fields for **Book Condition** and **Partner Rating**. | **Scope (3):** Affirms the **non-monetary model**. **UX Persona (Diego Pérez - 6):** Addresses the pain point of "Doubts about the actual condition of the book." |
-| **Location Screen:** Renamed to **"Puntos de Intercambio Seguros"** and added security descriptors. | **CJM (9):** Directly addresses **Valentina's (Persona 1)** critical pain point: "Fear of physical insecurity" during the encounter. |
-| **Profile View:** Updated to show **"Swaps Completados"** instead of "Lectores," and includes a dedicated link for **"Configurar Intereses/Géneros."** | **Scope (3):** Affirms the "Instant Swap Model." **Flowchart (8):** Validates the "Set Up Interests" node, which feeds the Match Algorithm. |
+| **Home Screen:** Title changed to **"Matches Recíprocos"** and content prioritized to Reciprocal Swap Cards. | **Flowchart (7):** Eliminates the generic "Search" approach. **Scope (4):** Emphasizes the Reciprocal Match System (core feature). |
+| **Book Detail/Swap View:** **Price field was removed.** Added fields for **Book Condition** and **Partner Rating**. | **Scope (4):** Affirms the **non-monetary model**. **UX Persona (Diego Pérez - 4):** Addresses the pain point of "Doubts about the actual condition of the book." |
+| **Location Screen:** Renamed to **"Puntos de Intercambio Seguros"** and added security descriptors. | **CJM (6):** Directly addresses **Valentina's (Persona 1)** critical pain point: "Fear of physical insecurity" during the encounter. |
+| **Profile View:** Updated to show **"Swaps Completados"** instead of "Lectores," and includes a dedicated link for **"Configurar Intereses/Géneros."** | **Scope (4):** Affirms the "Instant Swap Model." **Flowchart (7):** Validates the "Set Up Interests" node, which feeds the Match Algorithm. |
 
 ---
 
@@ -162,14 +160,14 @@ Following the development of the High-Fidelity Mockups, a **Heuristic Evaluation
 
 The evaluation identified **20 distinct usability problems**, consolidated into key areas of improvement:
 
-* **Consistency and Standards:** The report highlighted severe inconsistencies in the **navigation bar alignment**, button styles (colors, borders, fonts), and typography across different views.
-* **Match between System and Real World:** Terms used in the interface, such as "Lectores" (Readers) and "Publicados" (Published), did not accurately represent the business logic of a book exchange platform.
-* **Visibility of System Status:** The Navbar was not consistently present in all views, failing to inform users of their current location within the system.
-* **Error Prevention:** Critical actions, such as **deleting an account**, lacked a confirmation message or safety mechanism.
+- **Consistency and Standards:** The report highlighted severe inconsistencies in the **navigation bar alignment**, button styles (colors, borders, fonts), and typography across different views.
+- **Match between System and Real World:** Terms used in the interface, such as "Lectores" (Readers) and "Publicados" (Published), did not accurately represent the business logic of a book exchange platform.
+- **Visibility of System Status:** The Navbar was not consistently present in all views, failing to inform users of their current location within the system.
+- **Error Prevention:** Critical actions, such as **deleting an account**, lacked a confirmation message or safety mechanism.
 
 ### 10.2. Criticality Assessment (TOP 5)
 
-The severity and frequency of each issue were rated to calculate a **Critical Index (Severity x Frequency)**. The following table displays the top 5 most critical issues that required immediate refactoring:
+The severity and frequency of each issue were rated to calculate a **Critical Index (Severity × Frequency)**. The following table displays the top 5 most critical issues that required immediate refactoring:
 
 | Rank | ID | Problem Description | Avg. Severity | Avg. Frequency | Critical Index |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -183,8 +181,8 @@ The severity and frequency of each issue were rated to calculate a **Critical In
 
 The overall system satisfaction was measured using the SUS questionnaire. The scores indicated a critical need for improvement:
 
-* **Average SUS Score:** **23 / 100**
-* **Score Range:** From 10.0 (Lowest) to 35.0 (Highest).
+- **Average SUS Score:** **23 / 100**
+- **Score Range:** From 10.0 (Lowest) to 35.0 (Highest)
 
 *Interpretation:* An average score of 23 places the initial prototype in a low usability range, validating the need for the proposed refactor.
 
@@ -192,46 +190,46 @@ The overall system satisfaction was measured using the SUS questionnaire. The sc
 
 Based on the "Mindful Monkey" proposals, the final version of the project implements:
 
-1.  **Component Standardization:** Creation of a unified design system for buttons and typography to solve inconsistencies.
-2.  **Navigation Overhaul:** Implementation of a consistent Navbar component across all views to ensure system status visibility.
-3.  **Prototype Logic:** Correction of the prototype's navigability to ensure all flows (like "Upload Book" or "Interests") are connected and functional.
-4.  **Term Alignment:** Renaming ambiguous labels to clearly reflect the exchange model (e.g., clarifying "Lectores" vs. "Swaps").
+1. **Component Standardization:** Creation of a unified design system for buttons and typography to solve inconsistencies.
+2. **Navigation Overhaul:** Implementation of a consistent Navbar component across all views to ensure system status visibility.
+3. **Prototype Logic:** Correction of the prototype's navigability to ensure all flows (like "Upload Book" or "Interests") are connected and functional.
+4. **Term Alignment:** Renaming ambiguous labels to clearly reflect the exchange model (e.g., clarifying "Lectores" vs. "Swaps").
 
 ---
 
 ## 11. Final Hi-Fi Refactor
 
-This section presents the final iteration of the High-Fidelity design. These changes explicitly address the observations made by the **teaching team (Professor, Assistants and Students)** during the feedback sessions, as well as the issues found in the heuristic analysis.
+This section presents the final iteration of the High-Fidelity design. These changes explicitly address the observations made by the **teaching team (Professor, Assistants, and Students)** during the feedback sessions, as well as the issues found in the heuristic analysis.
 
-**Implemented Improvements:**
+### Implemented Improvements:
 
-* **Visual Consistency (Colors & Fonts):** We established a unified color palette and standardized typography across all screens to resolve the inconsistencies found in buttons and text hierarchies.
-* **Layout & Spacing:** Margins and padding were corrected to ensure a coherent layout and safe zones throughout the interface, improving aesthetic consistency.
-* **Screen Flow:** The navigation logic was optimized to ensure a seamless flow between screens, adding missing connections to key functions.
-* **Language Consistency:** Addressed the "Spanglish" issue identified in previous deliverables. The interface language has been unified to ensure a professional user experience.
-* **Documentation Visibility:** Final mockups are now directly embedded in this README for immediate visualization, as requested.
-* **Interactive Access:** The link to the functional prototype is now clearly available at the top of this document.
+- **Visual Consistency (Colors & Fonts):** We established a unified color palette and standardized typography across all screens to resolve the inconsistencies found in buttons and text hierarchies.
+- **Layout & Spacing:** Margins and padding were corrected to ensure a coherent layout and safe zones throughout the interface, improving aesthetic consistency.
+- **Screen Flow:** The navigation logic was optimized to ensure a seamless flow between screens, adding missing connections to key functions.
+- **Language Consistency:** Addressed the "Spanglish" issue identified in previous deliverables. The interface language has been unified to ensure a professional user experience.
+- **Documentation Visibility:** Final mockups are now directly embedded in this README for immediate visualization.
+- **Interactive Access:** The link to the functional prototype is clearly available at the top of this document.
 
 ### 11.1. Iterations
 
 The design process followed an iterative cycle, evolving from low-fidelity structures to a polished, user-centered interface.
 
-### 11.1.1 1st Iteration: Wireframe
+#### 11.1.1. 1st Iteration: Wireframe
 This initial stage focused exclusively on **structure and user flow**. We mapped out the skeletal framework of the application to ensure that the core features (Book Upload, Match, Chat) were logically connected, without the distraction of visual design elements.
 
 ![Wireframe Iteration](assets/iterations/wireframe.png)
 
-### 11.1.2 2nd Iteration: Initial High-Fidelity (Back-up Mockup)
+#### 11.1.2. 2nd Iteration: Initial High-Fidelity (Back-up Mockup)
 This was our first attempt at applying visual design. This version served as the subject for the **Heuristic Evaluation** by Mindful Monkey. It helped us identify critical issues such as "Spanglish" text, inconsistent button styles, and the lack of a global navigation bar.
 
 ![Back-up Mockup Iteration](assets/iterations/backup-mockup.png)
 
-### 11.1.3 3rd Iteration: Functional Prototype (Actual Mockup)
+#### 11.1.3. 3rd Iteration: Functional Prototype (Actual Mockup)
 In this phase, we focused on **interactivity and logic**. We connected the screens to create a navigable prototype in Figma. This stage revealed flow disconnects (e.g., dead ends in the "Interests" section) and allowed us to test the "Reciprocal Match" logic before applying the final visual polish.
 
 ![Actual Mockup Iteration](assets/iterations/actual-mockup.png)
 
-### 11.1.4 4th Iteration: Final Refactor (Refactor Mockup)
+#### 11.1.4. 4th Iteration: Final Refactor (Refactor Mockup)
 The final version incorporates all feedback from the teaching team and the heuristic analysis. We implemented a **Design System** to standardize colors, typography, and spacing. Critical improvements include a consistent Navbar, business-aligned terminology, and safety features for the user.
 
 ![Refactor Mockup Iteration](assets/iterations/refactor-mockup.png)
@@ -244,45 +242,45 @@ The following screens represent the consolidated "Happy Path" of the user, addre
 We unified the visual style and language. The flow now includes a mandatory **"Set Up Interests"** step immediately after registration to ensure the Reciprocal Match algorithm works from the start.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="assets/new-hifi/1.1Select.png" height="400">
-  <img src="assets/new-hifi/2.Log-In.png" height="400">
-  <img src="assets/new-hifi/3.1Set-Up-Interests.png" height="400">
+  <img src="assets/mockups-hifi/1.1Select.png" height="400">
+  <img src="assets/mockups-hifi/2.Log-In.png" height="400">
+  <img src="assets/mockups-hifi/3.1Set-Up-Interests.png" height="400">
 </div>
 
 #### 11.2.2. Home & Reciprocal Matching
 The Home screen was refactored to **"Matches Recíprocos"** (Reciprocal Matches). Instead of a generic search, it shows books from users who already want what you have. The **Book Detail** view now emphasizes "Condition" and "Owner Rating" instead of price.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="assets/new-hifi/4.Home-Matches.png" height="400">
-  <img src="assets/new-hifi/4.1Home-Details.png" height="400">
+  <img src="assets/mockups-hifi/4.Home-Matches.png" height="400">
+  <img src="assets/mockups-hifi/4.1Home-Details.png" height="400">
 </div>
 
 #### 11.2.3. Inventory Management (Upload Flow)
 We solved the navigation "dead ends" found in the evaluation. Users can now choose between **Scanning an ISBN** (for speed/accuracy) or **Manual Entry**. The **Profile/Catalog** view has been cleaned up, renaming ambiguous terms like "Lectores" to clear metrics.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="assets/new-hifi/6.Upload-New-Book.png" height="400">
-  <img src="assets/new-hifi/6.1Scan-ISBN.png" height="400">
-  <img src="assets/new-hifi/6.2Manual-Entry.png" height="400">
-  <img src="assets/new-hifi/7.My-Catalog.png" height="400">
+  <img src="assets/mockups-hifi/6.Upload-New-Book.png" height="400">
+  <img src="assets/mockups-hifi/6.1Scan-ISBN.png" height="400">
+  <img src="assets/mockups-hifi/6.2Manual-Entry.png" height="400">
+  <img src="assets/mockups-hifi/7.My-Catalog.png" height="400">
 </div>
 
 #### 11.2.4. Safe Coordination & Chat
 To address the "Physical Security" pain point, the Chat flow now integrates a **Safe Point Locator**. Users can suggest and agree on verified locations (Libraries, Cultural Centers) directly within the conversation interface.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="assets/new-hifi/5.Chats.png" height="400">
-  <img src="assets/new-hifi/5.1Active-Chat.png" height="400">
-  <img src="assets/new-hifi/8.Coordinate-Meeting-Place.png" height="400">
-  <img src="assets/new-hifi/Gathering-Details.png" height="400">
+  <img src="assets/mockups-hifi/5.Chats.png" height="400">
+  <img src="assets/mockups-hifi/5.1Active-Chat.png" height="400">
+  <img src="assets/mockups-hifi/8.Coordinate-Meeting-Place.png" height="400">
+  <img src="assets/mockups-hifi/Gathering-Details.png" height="400">
 </div>
 
 #### 11.2.5. Closing the Loop
 A critical heuristic issue was the lack of system status visibility. We added a clear **"Finalizar Intercambio"** (Finish Swap) flow that prompts users to rate their partner, closing the trust cycle.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="assets/new-hifi/5.3Finished.png" height="400">
-  <img src="assets/new-hifi/10.Close-Match.png" height="400">
+  <img src="assets/mockups-hifi/5.3Finished.png" height="400">
+  <img src="assets/mockups-hifi/10.Close-Match.png" height="400">
 </div>
 
 ---
@@ -295,7 +293,7 @@ In adherence to the project rubrics and inclusive design principles (based on wo
 We addressed the heuristic feedback regarding inconsistent button colors by establishing a **Main Brand Color (#4A90E2 - Blue)** and an **Accent Color (#FF9A00 - Orange)** that comply with **WCAG AA standards** for contrast against the white background. This ensures that text is readable for users with visual impairments.
 
 ### 12.2. Touch Targets (Fitts's Law)
-Previous iterations had buttons that were "too small" or "hard to reach" (Critical Issue #7). In the final refactor, all interactive elements, specifically the **Bottom Navigation Bar** and the **Main Action Buttons**, have been resized to meet the minimum touch target size of **44x44 pixels**.
+Previous iterations had buttons that were "too small" or "hard to reach" (Critical Issue #7). In the final refactor, all interactive elements, specifically the **Bottom Navigation Bar** and the **Main Action Buttons**, have been resized to meet the minimum touch target size of **44×44 pixels**.
 
 ### 12.3. Cognitive Load Reduction
 We reduced clutter by simplifying the navigation into **3 core tabs** and consolidating the "Upload" feature into a prominent, easily identifiable **Floating Action Button (+)**. This helps users with cognitive disabilities to easily identify the primary action on the screen without getting lost in complex menus.
