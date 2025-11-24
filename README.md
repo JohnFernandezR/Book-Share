@@ -1,5 +1,9 @@
 # Proyecto READ&SHARE
 
+## Link Figma
+
+https://www.figma.com/design/zT90Km5SHhE8oT0zsI0kQm/read-share?node-id=0-1&p=f&t=THDSOG1wODz7QQRJ-0
+
 ## Index
 
 - [1. Introduction](#1-introduction)
