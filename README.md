@@ -1,8 +1,14 @@
 # Proyecto READ&SHARE
 
-## Link Figma
+## Links Figma
+
+### HI-FI 
 
 https://www.figma.com/design/zT90Km5SHhE8oT0zsI0kQm/read-share?node-id=0-1&p=f&t=THDSOG1wODz7QQRJ-0
+
+### Wireframe
+
+https://www.figma.com/design/402DWWZCR1T9mrdEmgB5oO/Untitled?node-id=0-1&t=zOR5YpoLrG0us8gL-1
 
 ## Index
 
@@ -203,7 +209,7 @@ Based on the "Mindful Monkey" proposals, the final version of the project implem
 
 ## 11. Final HI-FI's Refactor
 
-This section presents the final iteration of the High-Fidelity design. These changes explicitly address the observations made by the **teaching team (Professor and Assistants)** during the feedback sessions, as well as the issues found in the heuristic analysis.
+This section presents the final iteration of the High-Fidelity design. These changes explicitly address the observations made by the **teaching team (Professor, Assistants and Students)** during the feedback sessions, as well as the issues found in the heuristic analysis.
 
 **Implemented Improvements:**
 
@@ -214,6 +220,75 @@ This section presents the final iteration of the High-Fidelity design. These cha
 * **Documentation Visibility:** Final mockups are now directly embedded in this README for immediate visualization, as requested.
 * **Interactive Access:** The link to the functional prototype is now clearly available below.
 
-### 11.1. Final Interface Screens
+### 11.1. Iterations
 
-Below are the final High-Fidelity screens demonstrating the implementation of the feedback:
+The design process followed an iterative cycle, evolving from low-fidelity structures to a polished, user-centered interface.
+
+### 11.1.1 1° Iteration: Wireframe
+This initial stage focused exclusively on **structure and user flow**. We mapped out the skeletal framework of the application to ensure that the core features (Book Upload, Match, Chat) were logically connected, without the distraction of visual design elements.
+
+![Wireframe Iteration](assets/iterations/wireframe.png)
+
+### 11.1.2 2° Iteration: Initial High-Fidelity (Back-up Mockup)
+This was our first attempt at applying visual design. This version served as the subject for the **Heuristic Evaluation** by Mindful Monkey. It helped us identify critical issues such as "Spanglish" text, inconsistent button styles, and the lack of a global navigation bar.
+
+![Back-up Mockup Iteration](assets/iterations/backup-mockup.png)
+
+### 11.1.3 3° Iteration: Functional Prototype (Actual Mockup)
+In this phase, we focused on **interactivity and logic**. We connected the screens to create a navigable prototype in Figma. This stage revealed flow disconnects (e.g., dead ends in the "Interests" section) and allowed us to test the "Reciprocal Match" logic before applying the final visual polish.
+
+![Actual Mockup Iteration](assets/iterations/actual-mockup.png)
+
+### 11.1.4 4° Iteration: Final Refactor (Refactor Mockup)
+The final version incorporates all feedback from the teaching team and the heuristic analysis. We implemented a **Design System** to standardize colors, typography, and spacing. Critical improvements include a consistent Navbar, business-aligned terminology, and safety features for the user.
+
+![Refactor Mockup Iteration](assets/iterations/refactor-mockup.png)
+
+### 11.2. Final Interface Screens & Functionalities
+
+The following screens represent the consolidated "Happy Path" of the user, addressing the heuristic issues of consistency, terminology, and safety.
+
+#### 11.2.1. Onboarding & Authentication
+We unified the visual style and language. The flow now includes a mandatory **"Set Up Interests"** step immediately after registration to ensure the Reciprocal Match algorithm works from the start.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="assets/new-hifi/1.1Select.png" height="400">
+  <img src="assets/new-hifi/2.Log-In.png" height="400">
+  <img src="assets/new-hifi/3.1Set-Up-Interests.png" height="400">
+</div>
+
+#### 11.2.2. Home & Reciprocal Matching
+The Home screen was refactored to **"Matches Recíprocos"** (Reciprocal Matches). Instead of a generic search, it shows books from users who already want what you have. The **Book Detail** view now emphasizes "Condition" and "Owner Rating" instead of price.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="assets/new-hifi/4.Home-Matches.png" height="400">
+  <img src="assets/new-hifi/4.1Home-Details.png" height="400">
+</div>
+
+#### 11.2.3. Inventory Management (Upload Flow)
+We solved the navigation "dead ends" found in the evaluation. Users can now choose between **Scanning an ISBN** (for speed/accuracy) or **Manual Entry**. The **Profile/Catalog** view has been cleaned up, renaming ambiguous terms like "Lectores" to clear metrics.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="assets/new-hifi/6.Upload-New-Book.png" height="400">
+  <img src="assets/new-hifi/6.1Scan-ISBN.png" height="400">
+  <img src="assets/new-hifi/6.2Manual-Entry.png" height="400">
+  <img src="assets/new-hifi/7.My-Catalog.png" height="400">
+</div>
+
+#### 11.2.4. Safe Coordination & Chat
+To address the "Physical Security" pain point, the Chat flow now integrates a **Safe Point Locator**. Users can suggest and agree on verified locations (Libraries, Cultural Centers) directly within the conversation interface.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="assets/new-hifi/5.Chats.png" height="400">
+  <img src="assets/new-hifi/5.1Active-Chat.png" height="400">
+  <img src="assets/new-hifi/8.Coordinate-Meeting-Place.png" height="400">
+  <img src="assets/new-hifi/Gathering-Details.png" height="400">
+</div>
+
+#### 11.2.5. Closing the Loop
+A critical heuristic issue was the lack of system status visibility. We added a clear **"Finalizar Intercambio"** (Finish Swap) flow that prompts users to rate their partner, closing the trust cycle.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="assets/new-hifi/5.3Finished.png" height="400">
+  <img src="assets/new-hifi/10.Close-Match.png" height="400">
+</div>
