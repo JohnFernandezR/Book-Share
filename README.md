@@ -153,3 +153,49 @@ The final design reflects the resolution of all strategic contradictions, valida
 | **Book Detail/Swap View:** **Price field was removed.** Added fields for **Book Condition** and **Partner Rating**. | **Scope (3):** Affirms the **non-monetary model**. **UX Persona (Diego Pérez - 6):** Addresses the pain point of "Doubts about the actual condition of the book." |
 | **Location Screen:** Renamed to **"Puntos de Intercambio Seguros"** and added security descriptors. | **CJM (9):** Directly addresses **Valentina's (Persona 1)** critical pain point: "Fear of physical insecurity" during the encounter. |
 | **Profile View:** Updated to show **"Swaps Completados"** instead of "Lectores," and includes a dedicated link for **"Configurar Intereses/Géneros."** | **Scope (3):** Affirms the "Instant Swap Model." **Flowchart (8):** Validates the "Set Up Interests" node, which feeds the Match Algorithm. |
+
+## 10. Heuristic evaluation's analysis
+
+Following the development of the High-Fidelity Mockups, a **Heuristic Evaluation** was performed by the external team **Mindful Monkey**. The objective was to identify usability issues based on recognized principles (Nielsen's Heuristics) and calculate the product's perceived usability using the **System Usability Scale (SUS)**. This analysis explicitly informs the final refactoring and consolidation of the design.
+
+### 10.1. Key Heuristic Findings
+
+The evaluation identified **20 distinct usability problems**, consolidated into key areas of improvement:
+
+* **Consistency and Standards:** The report highlighted severe inconsistencies in the **navigation bar alignment**, button styles (colors, borders, fonts), and typography across different views.
+* **Match between System and Real World:** Terms used in the interface, such as "Lectores" (Readers) and "Publicados" (Published), did not accurately represent the business logic of a book exchange platform.
+* **Visibility of System Status:** The Navbar was not consistently present in all views, failing to inform users of their current location within the system.
+* **Error Prevention:** Critical actions, such as **deleting an account**, lacked a confirmation message or safety mechanism.
+
+### 10.2. Criticality Assessment (TOP 5)
+
+The severity and frequency of each issue were rated to calculate a **Critical Index (Severity x Frequency)**. The following table displays the top 5 most critical issues that required immediate refactoring:
+
+| Rank | ID | Problem Description | Avg. Severity | Avg. Frequency | Critical Index |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | **20** | Absence of navigability/links to certain functions | 3.8 | 5.0 | **19.0** |
+| **2** | **12** | Inconsistency in button styles (colors, borders, sizes) | 1.8 | 10.0 | **18.0** |
+| **3** | **19** | Inconsistency in typographic fonts | 1.2 | 10.0 | **12.0** |
+| **4** | **17** | Interaction ambiguity (Buttons vs. Static Indicators) | 2.2 | 4.0 | **8.8** |
+| **5** | **9** | Navbar inconsistent presence and interference | 2.8 | 3.0 | **8.4** |
+
+### 10.3. System Usability Scale (SUS) Results
+
+The overall system satisfaction was measured using the SUS questionnaire. The scores indicated a critical need for improvement:
+
+* **Average SUS Score:** **23 / 100**
+* **Score Range:** From 10.0 (Lowest) to 35.0 (Highest).
+
+*Interpretation:* An average score of 23 places the initial prototype in a low usability range, validating the need for the proposed refactor.
+
+### 10.4. Refactoring Plan
+
+Based on the "Mindful Monkey" proposals, the final version of the project implements:
+
+1.  **Component Standardization:** Creation of a unified design system for buttons and typography to solve inconsistencies.
+2.  **Navigation Overhaul:** Implementation of a consistent Navbar component across all views to ensure system status visibility.
+3.  **Prototype Logic:** Correction of the prototype's navigability to ensure all flows (like "Upload Book" or "Interests") are connected and functional.
+4.  **Term Alignment:** Renaming ambiguous labels to clearly reflect the exchange model (e.g., clarifying "Lectores" vs. "Swaps").
+
+## 11. Final HI-FI's refactor
+
