@@ -201,5 +201,19 @@ Based on the "Mindful Monkey" proposals, the final version of the project implem
 3.  **Prototype Logic:** Correction of the prototype's navigability to ensure all flows (like "Upload Book" or "Interests") are connected and functional.
 4.  **Term Alignment:** Renaming ambiguous labels to clearly reflect the exchange model (e.g., clarifying "Lectores" vs. "Swaps").
 
-## 11. Final HI-FI's refactor
+## 11. Final HI-FI's Refactor
 
+This section presents the final iteration of the High-Fidelity design. These changes explicitly address the observations made by the **teaching team (Professor and Assistants)** during the feedback sessions, as well as the issues found in the heuristic analysis.
+
+**Implemented Improvements:**
+
+* **Visual Consistency (Colors & Fonts):** We established a unified color palette and standardized typography across all screens to resolve the inconsistencies found in buttons and text hierarchies.
+* **Layout & Spacing:** Margins and padding were corrected to ensure a coherent layout and safe zones throughout the interface, improving aesthetic consistency.
+* **Screen Flow:** The navigation logic was optimized to ensure a seamless flow between screens, adding missing connections to key functions.
+* **Language Consistency:** Addressed the "Spanglish" issue identified in previous deliverables. The interface language has been unified to ensure a professional user experience.
+* **Documentation Visibility:** Final mockups are now directly embedded in this README for immediate visualization, as requested.
+* **Interactive Access:** The link to the functional prototype is now clearly available below.
+
+### 11.1. Final Interface Screens
+
+Below are the final High-Fidelity screens demonstrating the implementation of the feedback:
