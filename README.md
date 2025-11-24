@@ -218,7 +218,7 @@ This section presents the final iteration of the High-Fidelity design. These cha
 * **Screen Flow:** The navigation logic was optimized to ensure a seamless flow between screens, adding missing connections to key functions.
 * **Language Consistency:** Addressed the "Spanglish" issue identified in previous deliverables. The interface language has been unified to ensure a professional user experience.
 * **Documentation Visibility:** Final mockups are now directly embedded in this README for immediate visualization, as requested.
-* **Interactive Access:** The link to the functional prototype is now clearly available below.
+* **Interactive Access:** The link to the functional prototype is now clearly available above.
 
 ### 11.1. Iterations
 
